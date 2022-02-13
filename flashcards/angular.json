@@ -1,5 +1,8 @@
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
+  "cli": {
+    "analytics": false
+  },
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
@@ -75,7 +78,8 @@
               "browserTarget": "flashcards:build:production"
             },
             "development": {
-              "browserTarget": "flashcards:build:development"
+              "browserTarget": "flashcards:build:development",
+              "port": 4004
             }
           },
           "defaultConfiguration": "development"
