@@ -6,6 +6,8 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 ## Installation
 ```
 npm i bootstrap font-awesome
+
+ng g c core/components/top-navbar --dry-run
 ```
 
 ## Development server
